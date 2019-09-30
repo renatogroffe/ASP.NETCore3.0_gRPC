@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  grpcprodutos:
+    image: grpcprodutos-3-0
+    build:
+      context: .
+    ports:
+      - "15001:80"
